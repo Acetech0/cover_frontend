@@ -16,7 +16,7 @@ generateBtn.addEventListener("click", async () => {
   generateBtn.textContent = "⏳ Generating...";
 
   try {
-    const response = await fetch("http://127.0.0.1:8000/api/generate", {
+    const response = await fetch("https://cover-backend.onrender.com", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
